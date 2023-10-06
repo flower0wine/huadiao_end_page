@@ -1,0 +1,119 @@
+/*
+*   后台登录页面的 light 主题 css 文件
+*/
+/*改变主题颜色*/
+.change-theme-container {
+    background-color: #43456c;
+}
+
+/*滑块*/
+.change-theme-thumb {
+    background-color: #204e9a;
+}
+
+/*图标*/
+.change-theme-thumb .icon {
+    fill: #dedede;
+}
+
+.login-wave-background,
+.wave-content {
+    filter: brightness(50%);
+}
+
+/*页面背景*/
+.login-index-container {
+    background: -webkit-linear-gradient(top left, #4b0505, #030736);
+}
+
+/*节日文字颜色*/
+.love-festival-container {
+    filter: brightness(100%);
+    color: #ffffff;
+    text-shadow: 0px 0px 6px #ffffff;
+}
+
+/*所有的装饰品*/
+.decoration-collections .decoration-vine,
+.decoration-collections .decoration-timer,
+.decoration-collections .decoration-leaves,
+.decoration-collections .decoration-trunk {
+    filter: brightness(72%);
+}
+
+/*自定义字体*/
+.timer-clock-container img {
+    filter: brightness(90%) drop-shadow(1px 1px 1px #797979);
+}
+
+.decoration-collections .decoration-love {
+    filter: brightness(87%) drop-shadow(0px 0px 3px #87de7a);
+}
+
+.decoration-collections .decoration-logo {
+    filter: brightness(87%) drop-shadow(0px 0px 3px #f86363);
+}
+
+/*表单内容*/
+.form-content {
+    background-color: rgb(37, 37, 70, 1);
+}
+
+.form-border-container {
+    box-shadow: 0px 0px 5px 0px #fff;
+}
+
+.huadiao-logo {
+    filter: brightness(1.1);
+}
+
+/*提示文字*/
+.huadiao-login-tips p,
+.huadiao-tip-title,
+.other-operations-container {
+    color: #cecece;
+}
+
+/*记住我、忘记密码*/
+.forget-password:hover,
+.remember-me-operate:hover {
+    color: #5783fd;
+    transform: scale(1.1);
+}
+
+#username,
+#password {
+    color: #cecece;
+    border: 1px solid #cecece;
+}
+
+/*用户名和密码图标*/
+.form-password-input .icon path,
+.form-username-input .icon path {
+    fill: #cecece;
+}
+
+.form-username-input:focus-within path,
+.form-password-input:focus-within path {
+    fill: #5783fd;
+}
+
+.form-username-input:focus-within #username,
+.form-password-input:focus-within #password {
+    border: 1px solid #5783fd;
+}
+
+/*登录按钮*/
+#login-btn {
+    color: #ddd;
+    background: -webkit-linear-gradient(left, #C33764, #1D2671);
+}
+
+/*提示信息*/
+.tip-content {
+    color: #7587b4;
+    background-color: rgba(75, 85, 105, 0.63);
+}
+
+
+

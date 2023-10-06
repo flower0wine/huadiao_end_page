@@ -1,0 +1,313 @@
+/*管理主页*/
+/**/
+/*页面背景*/
+.manage-board {
+    background-color: #252628;
+}
+
+/*头部背景*/
+.manage-header-container {
+    background-color: #242934;
+}
+
+/*搜索框*/
+.manage-search-input {
+    color: #efefef;
+    background-color: #4a4a4a;
+}
+
+/*搜索框提示文字*/
+.manage-search-input::-webkit-input-placeholder {
+    color: #838686;
+}
+
+/*管理员名称*/
+.administrator-avatar-name,
+.search-icon,
+.settings-icon {
+    color: #b6b6b6;
+    fill: #b7b7b7;
+}
+
+.administrator-avatar-name:hover,
+.search-icon:hover,
+.settings-icon:hover {
+    fill: #ddd;
+    color: #ddd;
+}
+
+/*管理员头像容器*/
+.administrator-avatar-container {
+    background-color: #282b4f;
+}
+
+.manage-settings,
+.manage-administrator-container {
+    border-left: 2px solid #5e5e5e;
+}
+
+/*左侧导航*/
+.manage-navigation-container {
+    color: #c0bfbf;
+    background-color: #273042;
+}
+
+.manage-navigation-container a {
+    color: #c0bfbf;
+}
+
+/*侧边栏图标*/
+.manage-navigation-options > ul > li span svg {
+    fill: #ddd !important;
+}
+
+.manage-navigation-options > ul > li:hover,
+    /*侧边栏已选择的选项*/
+.chose-option {
+    background-color: #313c54;
+}
+
+/*用户列表表格容器*/
+.user-collection-container,
+.user-details-input,
+/*分页器单个元素*/
+.pager-item,
+.pager-prev,
+.pager-next,
+.user-details-container {
+    color: #ddd;
+    background-color: #555555;
+}
+
+.pager-item,
+.pager-prev,
+.pager-next,
+.pager-options-elevator .pager-input {
+    border: 1px solid #797979;
+}
+
+.pager-options-elevator .pager-input {
+    color: #ddd;
+}
+
+/*分页器*/
+.pager-container {
+    color: #ddd;
+}
+
+/*用户列表表格表头*/
+.user-info-attribute,
+.edit-tools-header,
+.user-details-header {
+    background-color: #444444;
+}
+
+/*表头经过颜色*/
+th:hover,
+/*编辑工具面板头部*/
+.edit-tools-header:hover,
+    /*选项标题*/
+.option-title {
+    background-color: #3d3d3d;
+}
+
+/*经过单元格颜色*/
+td:hover {
+    background-color: #5d5c5c;
+}
+
+/*设置用户列表表格边框*/
+/*设置详细信息表格边框*/
+.user-details-input-column,
+th:nth-child(n + 2),
+td:nth-child(n + 2) {
+    border-left: 1px solid #7e7e7e;
+}
+
+.edit-tools-broad {
+    border-left: 3px solid #7e7e7e;
+}
+
+/*设置用户列表表格边框*/
+tr:nth-last-child(n + 2) td,
+/*设置详细信息表格边框*/
+tr th {
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.user-details-attribute,
+.user-details-input-container,
+/*编辑工具行*/
+.edit-tools {
+    border-top: 1px solid #7e7e7e;
+}
+
+/*表格下方的滚动条*/
+/*轨道*/
+.user-collection-form::-webkit-scrollbar-track {
+    background-color: #d7d7d7;
+}
+
+/*滑块*/
+.user-collection-form::-webkit-scrollbar-thumb {
+    background-color: #8c8c8c;
+    border: 1px solid #ddd;
+}
+
+.user-collection-form::-webkit-scrollbar-thumb:hover {
+    background-color: #7e7e7e;
+}
+
+/*系统消息窗口*/
+.system-announcement-window {
+    background-color: #414141;
+}
+
+/*系统消息输入区域*/
+.system-announcement-enter-origin {
+    background-color: #414141;
+    border-left: 1px solid #757575;
+}
+
+/*窗口标题*/
+.window-title,
+    /*消息输入区域标题*/
+.enter-origin-title {
+    color: #c5c5c5;
+    background-color: #2d2d2d;
+}
+
+/*设置菜单线条*/
+.message-settings-line {
+    background-color: #7a7a7a;
+}
+
+.message-settings:hover .message-settings-line {
+    background-color: #9f9f9f;
+}
+
+/*消息设置面板*/
+.message-settings-board {
+    color: #c2c2c2;
+    background-color: #383838;
+}
+
+/*发送模式选项*/
+.send-mode-options > div:hover {
+    color: var(--huadiao-hover-color);
+}
+
+/*发送模式标志-未选择*/
+.send-mode-sign {
+    background-color: #606060;
+}
+
+/*发送模式标志-已选择*/
+.selected-send-mode {
+    background-color: var(--huadiao-leave-color);
+}
+
+/*发送模式提醒*/
+.warning-title,
+.waring-text,
+.user-search-title,
+.current-chat-user-title,
+.user-nickname,
+.public-message-title-title {
+    color: #a2a2a2;
+}
+
+.current-send-mode-title,
+.current-send-mode {
+    color: var(--huadiao-leave-color)
+}
+
+.system-message-input,
+.system-message-input::-webkit-input-placeholder {
+    color: #a6a6a6;
+}
+
+/*工具集合*/
+.message-input-header {
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+}
+
+/*单个工具*/
+.message-tool {
+    fill: #949494;
+}
+
+.message-tool:hover {
+    fill: var(--huadiao-hover-color);
+}
+
+.send-button {
+    color: #e0e0e0;
+    background-color: var(--huadiao-leave-color);
+}
+
+.send-button:hover {
+    color: #c4c4c4;
+    background-color: var(--huadiao-hover-color);
+}
+
+/*用户搜索输入框*/
+.user-search-input,
+.public-message-title-input {
+    color: #ddd;
+    background-color: #606060;
+}
+
+.user-search-input::placeholder,
+.public-message-title-input::placeholder {
+    color: #adadad;
+}
+
+/*搜索图标*/
+.user-search-icon {
+    fill: #b0b0b0;
+}
+
+.user-search-icon:hover {
+    fill: #ddd;
+}
+
+.user-nickname:hover {
+    color: var(--huadiao-hover-color)
+}
+
+/*官方信息*/
+.authority {
+    color: #ababab;
+    background-color: #2c2c2c;
+}
+
+/*用户信息*/
+.user {
+    color: #ddd;
+    background-color: #838383;
+}
+
+/*官方头像*/
+.authority-avatar-container {
+    background: linear-gradient(145deg, #3b3b3b, #464646);
+    box-shadow:  4px 4px 8px #363636,
+    -4px -4px 8px #4c4c4c;
+}
+
+/*右键菜单*/
+.contextmenu {
+    color: #ababab;
+    background-color: rgb(79, 79, 79);
+}
+
+.contextmenu>div:hover {
+    background-color: rgb(89, 89, 89);
+}
+
+/*提示信息*/
+.slide-tip-container {
+    color: #c0c0c0;
+    background-color: rgb(56, 56, 56);
+}

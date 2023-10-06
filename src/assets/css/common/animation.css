@@ -1,0 +1,206 @@
+
+/*滑动动画*/
+/*起点*/
+.slide-enter {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+/*终点*/
+.slide-enter-to {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-leave-to {
+    opacity: 0;
+}
+
+/*渐隐动画*/
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-to, .fade-leave {
+    opacity: 1;
+}
+
+/*平推动画*/
+/*起点*/
+.push-enter {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/*终点*/
+.push-enter-to, .push-leave {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.push-leave-to {
+    transform: translateX(100%);
+}
+
+/*旋转动画*/
+.rotate-enter {
+    transform-origin: bottom;
+    transform: rotate(90deg);
+}
+
+.rotate-enter-to, .rotate-leave {
+    transform-origin: bottom;
+    transform: rotate(0deg);
+}
+
+.rotate-leave-to {
+    transform-origin: bottom;
+    transform: rotate(-90deg);
+}
+
+/* z 轴旋转*/
+.z-rotate-enter {
+    transform: rotateY(-180deg);
+}
+
+.z-rotate-enter-to, .z-rotate-leave {
+    transform: rotateY(0deg);
+}
+
+.z-rotate-leave-to {
+    transform: rotateY(180deg);
+}
+
+/*动画延迟*/
+.animation-delay-300ms {
+    animation-delay: 0.3s;
+}
+
+.animation-delay-400ms {
+    animation-delay: 0.4s;
+}
+
+/*装饰品动画类名*/
+.decoration-love-rotate {
+    animation: loveRotate 1s 1 forwards;
+}
+
+.decoration-love-shake {
+    animation: loveContainerShake 2s 1;
+}
+
+.decoration-timer-shake {
+    animation: timerShake 1s 1;
+}
+
+.decoration-logo-shake {
+    animation: logoShake 2s 1;
+}
+
+/*节日指示器框旋转*/
+@keyframes loveRotate {
+    10% {
+        transform: rotate(175deg);
+    }
+    20% {
+        transform: rotate(130deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(-30deg);
+    }
+    60% {
+        transform: rotate(15deg);
+    }
+    80% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*时间指示器抖动*/
+@keyframes timerShake {
+    10% {
+        transform: rotate(10deg);
+    }
+    30% {
+        transform: rotate(-8deg);
+    }
+    50% {
+        transform: rotate(6deg);
+    }
+    70% {
+        transform: rotate(-3deg);
+    }
+    90% {
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*logo 抖动*/
+@keyframes logoShake {
+    5% {
+        transform: rotate(4deg);
+    }
+    15% {
+        transform: rotate(-3deg);
+    }
+    30% {
+        transform: rotate(3deg);
+    }
+    45% {
+        transform: rotate(-2deg);
+    }
+    60% {
+        transform: rotate(1deg);
+    }
+    75% {
+        transform: rotate(-0.5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*节日指示器抖动*/
+@keyframes loveContainerShake {
+    5% {
+        transform: rotate(4deg);
+    }
+    15% {
+        transform: rotate(-3deg);
+    }
+    30% {
+        transform: rotate(3deg);
+    }
+    45% {
+        transform: rotate(-2deg);
+    }
+    60% {
+        transform: rotate(1deg);
+    }
+    75% {
+        transform: rotate(-0.5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*无限旋转*/
+@keyframes circleRotateZ {
+    from {
+
+        transform: scale(2) rotateZ(0deg);
+    }
+    to {
+        transform: scale(2) rotateZ(360deg);
+    }
+}

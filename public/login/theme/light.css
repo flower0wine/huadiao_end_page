@@ -1,0 +1,92 @@
+/*
+*   后台登录页面的 light 主题 css 文件
+*/
+/*改变主题颜色*/
+.change-theme-container {
+    background-color: #d2d2d2;
+}
+
+/*滑块*/
+.change-theme-thumb {
+    background-color: #f8f8f8;
+}
+
+/*图标*/
+.change-theme-thumb .icon {
+    fill: #7a7a7a;
+}
+
+/*页面背景*/
+.login-index-container {
+    background: -webkit-linear-gradient(top left, #e11d1f, #e5e1e0 70%);
+}
+
+/*节日文字颜色*/
+.love-festival-container {
+    color: #fff;
+    text-shadow: 2px 2px 3px #676767;
+}
+
+/*自定义字体*/
+.timer-clock-container img {
+    filter: drop-shadow(2px 2px 1px #333);
+}
+
+/*表单容器*/
+.form-container {
+    box-shadow: var(--box-shadow);
+}
+
+/*表单内容*/
+.form-content {
+    background-color: rgb(229, 225, 225, 0.95);
+}
+
+/*提示文字*/
+.huadiao-login-tips p,
+.huadiao-tip-title,
+.other-operations-container {
+    color: #757575;
+}
+
+/*记住我、忘记密码*/
+.forget-password:hover,
+.remember-me-operate:hover {
+    color: #d05050;
+    transform: scale(1.1);
+}
+
+/*输入框*/
+#username,
+#password {
+    color: #757575;
+    border: 1px solid #757575;
+}
+
+/*用户名和密码图标*/
+.form-password-input .icon path,
+.form-username-input .icon path {
+    fill: #757575;
+}
+
+.form-username-input:focus-within path,
+.form-password-input:focus-within path {
+    fill: #d05050;
+}
+
+.form-username-input:focus-within #username,
+.form-password-input:focus-within #password {
+    border: 1px solid #d05050;
+}
+
+/*登录按钮*/
+#login-btn {
+    color: #ddd;
+    background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+}
+
+/*提示信息*/
+.tip-content {
+    color: #606060;
+    background-color: rgba(255, 255, 255, 0.63);
+}
